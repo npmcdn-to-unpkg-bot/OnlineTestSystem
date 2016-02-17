@@ -1,0 +1,7 @@
+	Options +FollowSymLinks -MultiViews
+	RewriteEngine On
+	# never rewrite for existing files, directories and links
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	# rewrite everything else to index.php
+	RewriteRule .* index.php [L]

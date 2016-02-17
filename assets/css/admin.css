@@ -1,0 +1,22 @@
+.navbar{
+    border-radius: 0px;
+}
+input[type='checkbox'], input[type='checkbox']:focus, input[type='checkbox']:active, input[type='checkbox']:hover{
+    box-shadow: none;
+}
+input[type='checkbox']:after{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+input[type='checkbox']:before{
+    transform: translate(-50%, -50%) rotate(45deg) !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 43% !important;
+    z-index: 1 !important;
+}
+.table{
+    box-shadow: 0px 1px #ccc;
+}
